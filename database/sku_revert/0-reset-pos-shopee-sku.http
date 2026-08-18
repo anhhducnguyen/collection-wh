@@ -1,0 +1,2 @@
+DELETE FROM product_sku_inventory
+WHERE product_sku_inventory.sku_id = '253627f3-9433-493d-ab16-de8bd4a8841b';
