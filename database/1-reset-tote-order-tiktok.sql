@@ -1,6 +1,6 @@
 UPDATE wh_tote
 SET status = 'IDLE'
-WHERE id = '0e9eed42-3897-4291-b9ea-b3a526852e36';
+WHERE id = '85be831f-0187-416c-966d-bb5eec0165d5';
 
 UPDATE shop_order
 SET assigned_picker_id = null
