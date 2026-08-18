@@ -1,0 +1,7 @@
+
+POST {{BASE_URL_REST}}/dpm/v1/auth/login
+
+{
+  "email": "21012473@st.phenikaa-uni.edu.vn",
+  "password": "Ducanh12@#"
+}

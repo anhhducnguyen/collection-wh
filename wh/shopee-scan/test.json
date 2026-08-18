@@ -1,0 +1,1584 @@
+{
+  "error": "",
+  "message": "",
+  "response": {
+    "logistics_channel_list": [
+      {
+        "logistics_channel_id": 5001,
+        "logistics_channel_name": "Nhanh",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 10,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 200,
+          "width": 200,
+          "length": 200,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 0,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 5004,
+        "logistics_channel_name": "Hàng Cồng Kềnh",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 200,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 320,
+          "width": 320,
+          "length": 320,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 0,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 5000,
+        "logistics_channel_name": "Hỏa Tốc",
+        "cod_enabled": true,
+        "enabled": false,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 30,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 60,
+          "width": 60,
+          "length": 60,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 0,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": false,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": true,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50039,
+        "logistics_channel_name": "Tủ nhận hàng - Viettel Smartbox",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 10,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 8,
+          "width": 26,
+          "length": 32,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 0,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50052,
+        "logistics_channel_name": "Tủ nhận hàng - SPX",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 10,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 44,
+          "width": 53,
+          "length": 38,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 0,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50053,
+        "logistics_channel_name": "Điểm nhận hàng",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 10,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 60,
+          "width": 60,
+          "length": 60,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 0,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 5012,
+        "logistics_channel_name": "Trong Ngày",
+        "cod_enabled": true,
+        "enabled": false,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 200,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 0,
+          "width": 0,
+          "length": 0,
+          "unit": "UNKNOWN",
+          "dimension_sum": 6000
+        },
+        "force_enable": false,
+        "mask_channel_id": 0,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 6000,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": false,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 5002,
+        "logistics_channel_name": "Tiết kiệm",
+        "cod_enabled": true,
+        "enabled": false,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 15,
+          "item_min_weight": 0.001
+        },
+        "item_max_dimension": {
+          "height": 200,
+          "width": 200,
+          "length": 200,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 0,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50010,
+        "logistics_channel_name": "Viettel Post",
+        "cod_enabled": true,
+        "enabled": false,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 10,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 140,
+          "width": 140,
+          "length": 140,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5002,
+        "logistics_description": "<br>Cân nặng tối đa: 100kg/đơn hàng<br><br>\nGiá trị đơn hàng tối đa: 30 triệu đồng<br><br>\nKhông vận chuyển đồ uống và thực phẩm tươi<br><br>\nHỗ trợ: 1900 8095",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50011,
+        "logistics_channel_name": "Giao Hàng Nhanh",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 10,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 200,
+          "width": 200,
+          "length": 200,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5002,
+        "logistics_description": "<br>Khối lượng tối đa: 100kg/đơn hàng<br><br>\nKích thước tối đa: mỗi chiều không quá 200cm<br><br>\nGiá trị đơn hàng tối đa: 20 triệu đồng<br><br>\nKhông vận chuyển đồ uống và thực phẩm tươi<br><br>\nHỗ trợ: 1800 6328",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50011,
+        "logistics_channel_name": "Giao Hàng Nhanh",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 10,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 200,
+          "width": 200,
+          "length": 200,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5001,
+        "logistics_description": "<br>Khối lượng tối đa: 100kg/đơn hàng<br><br>\nKích thước tối đa: mỗi chiều không quá 200cm<br><br>\nGiá trị đơn hàng tối đa: 20 triệu đồng<br><br>\nKhông vận chuyển đồ uống và thực phẩm tươi<br><br>\nHỗ trợ: 1800 6328",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50021,
+        "logistics_channel_name": "SPX Express",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 15,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 60,
+          "width": 60,
+          "length": 60,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5001,
+        "logistics_description": "Hỗ trợ đơn hàng giao trong cùng một tỉnh<br><br>\nKhối lượng tối đa: 15kg/đơn hàng<br><br>\nKích thước tối đa: Mỗi chiều không quá 60cm<br><br>\nGiá trị đơn hàng tối đa: 50 triệu đồng<br><br>\nĐơn vị vận chuyển được tích hợp: SPX Express",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50018,
+        "logistics_channel_name": "J&T Express",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 50,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 180,
+          "width": 180,
+          "length": 180,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5001,
+        "logistics_description": "Khối lượng tối đa: 70kg/đơn hàng, kích thước mỗi chiều không quá 180cm<br><br>Giá trị đơn hàng tối đa: 50 triệu đồng<br><br>Thời gian hoạt động: Thứ Hai-Chủ Nhật<br><br>Hỗ trợ: 19001088",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50022,
+        "logistics_channel_name": "SPX Instant",
+        "cod_enabled": true,
+        "enabled": false,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 30,
+          "item_min_weight": 0.01
+        },
+        "item_max_dimension": {
+          "height": 60,
+          "width": 60,
+          "length": 60,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5000,
+        "logistics_description": "<br>Thông tin về 'SPX Express Instant'</br>\n<br>Khối lượng tối đa: 30kg/đơn hàng, kích thước mỗi chiều không quá 60cm'</br>\n<br>Giá trị đơn hàng tối đa: 05 triệu đồng</br>\n<br>Thời gian hoạt động: Thứ Hai - Chủ Nhật</br>\n<br>Lưu ý: vui lòng xác định vị trí lấy hàng trên bản đồ khi kích hoạt đơn vị vận chuyển này</br>",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": false,
+        "support_direct": false,
+        "preprint": true,
+        "service_type_identifier": null,
+        "support_pause": true,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50044,
+        "logistics_channel_name": "Ahamove - Trong Ngày",
+        "cod_enabled": true,
+        "enabled": false,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 200,
+          "item_min_weight": 0.01
+        },
+        "item_max_dimension": {
+          "height": 0,
+          "width": 0,
+          "length": 0,
+          "unit": "UNKNOWN",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5012,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": false,
+        "support_direct": false,
+        "preprint": true,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50041,
+        "logistics_channel_name": "SPX Express - Trong Ngày",
+        "cod_enabled": true,
+        "enabled": false,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 15,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 60,
+          "width": 60,
+          "length": 60,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5012,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": false,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50051,
+        "logistics_channel_name": "SPX Express SBS - Trong Ngày",
+        "cod_enabled": false,
+        "enabled": false,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 15,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 60,
+          "width": 60,
+          "length": 60,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5012,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50032,
+        "logistics_channel_name": "GHN - Hàng Cồng Kềnh",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 200,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 320,
+          "width": 320,
+          "length": 320,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5004,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50034,
+        "logistics_channel_name": "NJV - Hàng Cồng Kềnh",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 100,
+          "item_min_weight": 0.01
+        },
+        "item_max_dimension": {
+          "height": 200,
+          "width": 200,
+          "length": 200,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5004,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50025,
+        "logistics_channel_name": "SPX - Hàng Cồng Kềnh",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 200,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 0,
+          "width": 0,
+          "length": 0,
+          "unit": "UNKNOWN",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5004,
+        "logistics_description": "<strong>Thông tin về kênh vận chuyển tạm thời \"Đợi vận chuyển sau phong tỏa\"</strong><br>\n- Là kênh vận chuyển tạm thời dành cho các đơn hàng có Người mua hoặc Người bán ở khu vực tất cả các ĐVVC không hoạt động được<br>\n- Người bán không cần xử lý các đơn hàng này cho đến khi các ĐVVC hoạt động trở lại<br>\n- Bật kênh này sẽ giúp Người bán vẫn nhận được đơn hàng mới và dễ dàng lọc ra các đơn hàng chưa cần xử lý, tránh bị huỷ đơn hàng",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50020,
+        "logistics_channel_name": "GrabExpress",
+        "cod_enabled": true,
+        "enabled": false,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 30,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 40,
+          "width": 50,
+          "length": 50,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5000,
+        "logistics_description": "Thông tin về 'GrabExpress'<br>\nKhối lượng tối đa: 30kg/đơn hàng, kích thước mỗi chiều không quá 60cm<br>\nGiá trị đơn hàng tối đa: 5 triệu đồng<br>\nThời gian hoạt động: Thứ Hai-Chủ Nhật <br>\nLưu ý: vui lòng xác định vị trí lấy hàng trên bản đồ khi kích hoạt đơn vị vận chuyển này",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": false,
+        "support_direct": false,
+        "preprint": true,
+        "service_type_identifier": null,
+        "support_pause": true,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50026,
+        "logistics_channel_name": "beDelivery",
+        "cod_enabled": false,
+        "enabled": false,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 20,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 60,
+          "width": 60,
+          "length": 60,
+          "unit": "cm",
+          "dimension_sum": 150
+        },
+        "force_enable": false,
+        "mask_channel_id": 5000,
+        "logistics_description": "Thông tin về beDelivery<br>Khối lượng tối đa: 20kg/đơn hàng<br>Kích thước mỗi chiều không quá 60cm<br>Giá trị đơn hàng tối đa: 5 triêu đồng (non-COD)<br>Thời gian hoạt động: Thứ Hai-Chủ Nhật (24/7)<br>Lưu ý: vui lòng xác định vị trí lấy hàng trên bản đồ khi bật kênh vận chuyển này",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": false,
+        "support_direct": false,
+        "preprint": true,
+        "service_type_identifier": null,
+        "support_pause": true,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50031,
+        "logistics_channel_name": "AhaMove",
+        "cod_enabled": true,
+        "enabled": false,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 30,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 60,
+          "width": 60,
+          "length": 60,
+          "unit": "cm",
+          "dimension_sum": 150
+        },
+        "force_enable": false,
+        "mask_channel_id": 5000,
+        "logistics_description": "Thông tin về AhaMove<br>Khối lượng tối đa: 30kg/đơn hàng<br>Kích thước mỗi chiều không quá 50cm<br>Giá trị đơn hàng tối đa: 10 triêu đồng (non-COD & COD)<br>Thời gian hoạt động: Thứ Hai-Chủ Nhật (24/7)<br>Lưu ý: vui lòng xác định vị trí lấy hàng trên bản đồ khi bật kênh vận chuyển này",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": false,
+        "support_direct": false,
+        "preprint": true,
+        "service_type_identifier": null,
+        "support_pause": true,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50029,
+        "logistics_channel_name": "Đang Điều Phối ĐVVC",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 15,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 200,
+          "width": 200,
+          "length": 200,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5001,
+        "logistics_description": "<strong>Thông tin về kênh vận chuyển tạm thời \"Đợi vận chuyển sau phong tỏa\"</strong><br>\n- Là kênh vận chuyển tạm thời dành cho các đơn hàng có Người mua hoặc Người bán ở khu vực tất cả các ĐVVC không hoạt động được<br>\n- Người bán không cần xử lý các đơn hàng này cho đến khi các ĐVVC hoạt động trở lại<br>\n- Bật kênh này sẽ giúp Người bán vẫn nhận được đơn hàng mới và dễ dàng lọc ra các đơn hàng chưa cần xử lý, tránh bị huỷ đơn hàng",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50037,
+        "logistics_channel_name": "Viettel Post",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 100,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 140,
+          "width": 140,
+          "length": 140,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5001,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50012,
+        "logistics_channel_name": "Đang Điều Phối ĐVVC",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 200,
+          "item_min_weight": 0.01
+        },
+        "item_max_dimension": {
+          "height": 320,
+          "width": 320,
+          "length": 320,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5004,
+        "logistics_description": "<br>Khối lượng tối đa: 20kg/đơn hàngbr><br>Kích thước tối đa: Mỗi chiều không quá 100cm<br><br>Giá trị đơn hàng tối đa: 30 triệu đồng<br><br>Không vận chuyển đồ uống và thực phẩm tươi<br><br>Hỗ trợ: 1800 6092 <br>Giới hạn vận chuyển: Khối lượng tối đa: 20000g<br>Cân nặng tối thiểu: 10g",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": true,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50024,
+        "logistics_channel_name": "BEST Express",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 80,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 80,
+          "width": 80,
+          "length": 180,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5004,
+        "logistics_description": "<strong>Thông tin về BEST Express</strong><br/>\nKhối lượng tối đa: 120kg/đơn hàng <br/>\nKích thước tối đa: 180*80*80(cm) (Tương ứng: Dài*rộng*cao)<br/>\nGiá trị đơn hàng tối đa: 30 triệu đồng<br/>\nThời gian hoạt động: Thứ Hai-Thứ Bảy<br/>\nHỗ trợ: 1900 1031",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50050,
+        "logistics_channel_name": "Green SM",
+        "cod_enabled": true,
+        "enabled": false,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 30,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 60,
+          "width": 60,
+          "length": 60,
+          "unit": "cm",
+          "dimension_sum": 180
+        },
+        "force_enable": false,
+        "mask_channel_id": 5000,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": false,
+        "support_direct": false,
+        "preprint": true,
+        "service_type_identifier": null,
+        "support_pause": true,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50033,
+        "logistics_channel_name": "Ahamove SBS - Trong Ngày",
+        "cod_enabled": false,
+        "enabled": false,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 15,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 60,
+          "width": 60,
+          "length": 60,
+          "unit": "cm",
+          "dimension_sum": 150
+        },
+        "force_enable": false,
+        "mask_channel_id": 5012,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": true,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50015,
+        "logistics_channel_name": "VNPost Nhanh",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 0,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 150,
+          "width": 150,
+          "length": 150,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5001,
+        "logistics_description": "<br>Cân nặng tối đa: 100kg/đơn hàng<br><br>\nGiá trị đơn hàng tối đa: 100 triệu đồng<br><br>\nKhông vận chuyển đồ uống và thực phẩm tươi<br><br>\nHỗ trợ: 1900 54 54 81",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50023,
+        "logistics_channel_name": "Ninja Van",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 10,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 200,
+          "width": 200,
+          "length": 200,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5001,
+        "logistics_description": "Khối lượng tối đa: 100kg/đơn hàng <br><br>\nKích thước tối đa: Mỗi chiều không quá 200cm<br><br>\nGiá trị đơn hàng tối đa: 50 triệu đồng<br><br>\nThời gian hoạt động: Thứ Hai - Chủ Nhật<br><br>\nHỗ trợ: 1900 988 928",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50023,
+        "logistics_channel_name": "Ninja Van",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 10,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 200,
+          "width": 200,
+          "length": 200,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5002,
+        "logistics_description": "Khối lượng tối đa: 100kg/đơn hàng <br><br>\nKích thước tối đa: Mỗi chiều không quá 200cm<br><br>\nGiá trị đơn hàng tối đa: 50 triệu đồng<br><br>\nThời gian hoạt động: Thứ Hai - Chủ Nhật<br><br>\nHỗ trợ: 1900 988 928",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50016,
+        "logistics_channel_name": "VNP - Hàng Cồng Kềnh",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 0,
+          "item_min_weight": 0.01
+        },
+        "item_max_dimension": {
+          "height": 150,
+          "width": 150,
+          "length": 150,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5002,
+        "logistics_description": "<br>Cân nặng tối đa: 100kg/đơn hàng<br><br>\nGiá trị đơn hàng tối đa: 100 triệu đồng<br><br>\nKhông vận chuyển đồ uống và thực phẩm tươi<br><br>\nHỗ trợ: 1900 54 54 81",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50016,
+        "logistics_channel_name": "VNP - Hàng Cồng Kềnh",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 0,
+          "item_min_weight": 0.01
+        },
+        "item_max_dimension": {
+          "height": 150,
+          "width": 150,
+          "length": 150,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5004,
+        "logistics_description": "<br>Cân nặng tối đa: 100kg/đơn hàng<br><br>\nGiá trị đơn hàng tối đa: 100 triệu đồng<br><br>\nKhông vận chuyển đồ uống và thực phẩm tươi<br><br>\nHỗ trợ: 1900 54 54 81",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      },
+      {
+        "logistics_channel_id": 50100,
+        "logistics_channel_name": "VTP - Hàng Cồng Kềnh",
+        "cod_enabled": true,
+        "enabled": true,
+        "fee_type": "SIZE_INPUT",
+        "size_list": [],
+        "weight_limit": {
+          "item_max_weight": 15,
+          "item_min_weight": 0
+        },
+        "item_max_dimension": {
+          "height": 140,
+          "width": 140,
+          "length": 140,
+          "unit": "cm",
+          "dimension_sum": 0
+        },
+        "force_enable": false,
+        "mask_channel_id": 5004,
+        "logistics_description": "",
+        "volume_limit": {
+          "item_max_volume": 0,
+          "item_min_volume": 0
+        },
+        "logistics_capability": {
+          "seller_logistics": false,
+          "direct_delivery": false,
+          "spx_instant": false
+        },
+        "seller_logistic_has_configuration": null,
+        "support_cross_border": false,
+        "block_seller_cover_shipping_fee": false,
+        "support_pre_order": true,
+        "support_direct": false,
+        "preprint": false,
+        "service_type_identifier": null,
+        "support_pause": false,
+        "channel_relation_rules": {
+          "related_enabled_channels": [],
+          "related_disabled_channels": [],
+          "related_dependent_block_channels": []
+        },
+        "compulsory_channel": false
+      }
+    ]
+  },
+  "request_id": "e3e3e7f357d036eb48715351e2347d00:010002b1cd40d3e2:000000b4fad9357c"
+}

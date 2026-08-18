@@ -1,0 +1,7 @@
+
+POST {{BASE_URL_REST}}/dpm/v1/auth/login
+
+{
+  "email": "dhn.admin@gmail.com",
+  "password": "tts@2025"
+}

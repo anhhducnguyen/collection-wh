@@ -1,0 +1,10 @@
+### ==========================================
+### Scan location - tra cứu bằng mã bin location
+### ==========================================
+# @name scanLocationByBin
+GET {{BASE_URL_REST}}/dpm/v1/warehouse/scan-location?code=a-k1-T3-O3
+Content-Type: application/json
+Authorization: Bearer {{TOKEN_REST}}
+
+
+

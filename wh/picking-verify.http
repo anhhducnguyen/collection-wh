@@ -1,0 +1,29 @@
+
+POST {{BASE_URL_REST}}/dpm/v1/warehouse/picking/verify
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAxOWY2ZGM0LTEwNWQtNzU1Yy05Y2YyLTVhOGMxZmEwMGM4ZiIsImZpcnN0TmFtZSI6Ik5ndXllbiBEdWMgQW5oIiwibGFzdE5hbWUiOm51bGwsImVtYWlsIjoiMjEwMTI0NzNAc3QucGhlbmlrYWEtdW5pLmVkdS52biIsInByb2ZpbGVQaWN0dXJlIjpudWxsLCJwbGFuIjowLCJtcCI6LTEsIm51bURheURlbGV0ZVZpZGVvIjoyMCwic3RvcmVJZCI6IjAxOWY2ZGM0LTEwY2YtNzU1Yy05Y2YyLTYyZWRiOThiNzZkYyIsIm93bmVyU3RvcmUiOiIwMTlmNmRjNC0xMDVkLTc1NWMtOWNmMi01YThjMWZhMDBjOGYiLCJyb2xlcyI6WyJvd25lciJdLCJscyI6NTEyLCJvd25lck9yZyI6ImZhNTlmNmI3LTQ4ODQtNDBkOS1iYzE3LWI3N2NkYjJlMTYzMyIsInJlZmVycmFsQnkiOiIyYzRjMjFkMS1mZmVjLTRjM2QtYTE0Zi0zOTkwZjY4YmE2YTYiLCJzaWQiOiIwMTlmODdlNC04OTM2LTcxMWEtYmM1Yi1hOWZkMzZlOWQ2ZTMiLCJqdGkiOiIwMTlmODdlNC04OTM2LTcxMWEtYmM1Yi1iMjcyYzY0OGVmNWMiLCJ0b2tlblR5cGUiOiJhY2Nlc3MiLCJpYXQiOjE3ODQ2OTEzMjksImV4cCI6MTc4NDc3NzcyOSwiaXNzIjoiZGhuX2FwaSJ9.IkGQhrYIXpso47j95LAt_ig1RCHoPsjP2SasgTYX-gQ
+
+{
+  "sourceOrderId": "579573969629185740",
+  "items": [
+    {
+      "productId": "b8b95adc-a4ad-41d1-920f-8469e7a62fba",
+      "skuId": "1731334330917095020",
+      "pickedQuantity":2
+    },
+    {
+      "productId": "c03b9824-f3d0-474b-8933-11aa834bf67c",
+      "skuId": "1731615540453345900",
+      "pickedQuantity":1
+    },
+    {
+      "productId": "c03b9824-f3d0-474b-8933-11aa834bf67c",
+      "skuId": "1731615540453411436",
+      "pickedQuantity":1
+    },
+    {
+      "productId": "c03b9824-f3d0-474b-8933-11aa834bf67c",
+      "skuId": "1731615540453476972",
+      "pickedQuantity":1
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+POST {{BASE_URL_REST}}/dpm/v1/auth/login
+Authorization: Bearer {{TOKEN_REST}}
+
+{
+  "email": "thangnv1030@gmail.com",
+  "password": "12345678A@"
+}
