@@ -1,0 +1,26 @@
+### C:\dhn\test\collection\wh\shopee-scan\0.1-sku-inventory-assign.http#1
+POST https://dev.dohana.vn/dpm/v1/warehouse/product-inventory/assign
+HTTP/1.1 201 Created
+
+# @_RES (formatted)
+{
+  "type": "variant",
+  "alreadyAssigned": false,
+  "assignedAt": "2026-08-18T16:28:14.582Z",
+  "variant": {
+    "id": "253627f3-9433-493d-ab16-de8bd4a8841b",
+    "code": "306872039975",
+    "productName": "Pate Cho Mèo S2 Pet Snack Lon 85g Giàu Dinh Dưỡng, Thịt Tươi Nguyên Chất, Bổ Sung Đầy Đủ Dinh Dưỡng"
+  },
+  "shelf": {
+    "id": "f4d4dfd3-9d1f-417b-9f3e-ba00d5ee48cb",
+    "code": "B-K1-T1-O2",
+    "shelfId": "93fc8942-c8c6-49a8-959b-fdd61cdff781",
+    "shelfCode": "B-K1",
+    "zoneId": "476530dc-5723-40de-946b-224da4972bfc",
+    "zoneCode": "B",
+    "zoneName": "Dãy B",
+    "warehouseId": "08c3ae7a-7873-4d0a-a949-489348efa757"
+  }
+}
+# @_END

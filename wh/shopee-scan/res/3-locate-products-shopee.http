@@ -1,0 +1,43 @@
+### C:\dhn\test\collection\wh\shopee-scan\req\3-locate-products-shopee.http#1
+GET https://dev.dohana.vn/dpm/v1/warehouse/locate-products?code=SPXVN060475758533&platform=shopee
+HTTP/1.1 200 OK
+
+# @_RES (formatted)
+{
+  "platform": "shopee",
+  "trackingNumber": "SPXVN060475758533",
+  "sourceOrderId": "260318FBTY4B3M",
+  "products": [
+    {
+      "productId": "375227d1-0ffc-4b97-a809-76fc8b1c3c81",
+      "productName": "Súp Thưởng Neeka NTPet Cao Cấp Dành Cho Chó Mèo Giúp Bổ Sung Dinh Dưỡng Thanh 12g",
+      "productImageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhywjekw229u32",
+      "sku": "296233982921",
+      "salePrice": "120000.00",
+      "skuName": "S2PET V1 1kg",
+      "originalPrice": "120000.00",
+      "quantity": 1,
+      "pickedQuantity": 0,
+      "status": "PENDING",
+      "location": {
+        "bin": {
+          "id": "f4d4dfd3-9d1f-417b-9f3e-ba00d5ee48cb",
+          "code": "B-K1-T1-O2",
+          "row": 1,
+          "col": 2,
+          "level": 1
+        },
+        "shelf": {
+          "id": "93fc8942-c8c6-49a8-959b-fdd61cdff781",
+          "code": "B-K1"
+        },
+        "zone": {
+          "id": "476530dc-5723-40de-946b-224da4972bfc",
+          "code": "B",
+          "name": "Dãy B"
+        }
+      }
+    }
+  ]
+}
+# @_END

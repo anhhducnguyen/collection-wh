@@ -1,0 +1,26 @@
+### C:\dhn\test\collection\wh\shopee-scan\0-product-inventory-assign.http#1
+POST https://dev.dohana.vn/dpm/v1/warehouse/product-inventory/assign
+HTTP/1.1 201 Created
+
+# @_RES (formatted)
+{
+  "type": "product",
+  "alreadyAssigned": false,
+  "assignedAt": "2026-08-18T16:24:04.211Z",
+  "product": {
+    "id": "375227d1-0ffc-4b97-a809-76fc8b1c3c81",
+    "code": "NNYRSNFYYT",
+    "name": "Súp Thưởng Neeka NTPet Cao Cấp Dành Cho Chó Mèo Giúp Bổ Sung Dinh Dưỡng Thanh 12g"
+  },
+  "shelf": {
+    "id": "a67b3e9b-ae20-4c01-8d8b-abbb4353a1da",
+    "code": "A-K1-T3-O3",
+    "shelfId": "eeddada2-7e8a-4480-8a3e-b1775aa21381",
+    "shelfCode": "A-K1",
+    "zoneId": "22f2ce41-668c-4a4d-98a0-c777c091386a",
+    "zoneCode": "A",
+    "zoneName": "Dãy A",
+    "warehouseId": "08c3ae7a-7873-4d0a-a949-489348efa757"
+  }
+}
+# @_END

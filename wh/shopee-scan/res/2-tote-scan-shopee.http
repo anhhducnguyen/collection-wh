@@ -1,0 +1,13 @@
+### C:\dhn\test\collection\wh\shopee-scan\req\2-tote-scan-shopee.http#1
+POST https://dev.dohana.vn/dpm/v1/warehouse/08c3ae7a-7873-4d0a-a949-489348efa757/tote/scan
+HTTP/1.1 201 Created
+
+# @_RES (formatted)
+{
+  "orderId": "12d5e723-9012-487d-b01d-f3e7efd6f375",
+  "status": "PICKING",
+  "platform": "shopee",
+  "trackingNumber": "SPXVN060475758533",
+  "sourceOrderId": "260318FBTY4B3M"
+}
+# @_END

@@ -1,0 +1,17 @@
+### C:\dhn\test\collection\wh\shopee-scan\1-assign-picker-shopee.http#1
+POST https://dev.dohana.vn/dpm/v1/warehouse/orders/assign-picker
+HTTP/1.1 201 Created
+
+# @_RES (formatted)
+[
+  {
+    "orderId": "df905d59-ade9-4767-9fa1-8336a9bb3f73",
+    "pickerId": "019f6dd6-b361-799a-b216-2b848a0f8594",
+    "assignedBy": "019f6dc4-105d-755c-9cf2-5a8c1fa00c8f",
+    "assignedAt": "2026-08-18T09:30:58.683Z",
+    "unassignedAt": null,
+    "isActive": true,
+    "id": "7ae86cd9-c357-4443-87c5-49b621169459"
+  }
+]
+# @_END
