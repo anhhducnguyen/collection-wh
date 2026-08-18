@@ -1,0 +1,133 @@
+### C:\dhn\test\collection\wh\tiktok-scan\req\3-locate-products-tiktok.http#1
+GET https://dev.dohana.vn/dpm/v1/warehouse/locate-products?code=859283951774&platform=tiktok
+HTTP/1.1 200 OK
+
+# @_RES (formatted)
+{
+  "platform": "tiktok",
+  "trackingNumber": "859283951774",
+  "sourceOrderId": "579573969629185740",
+  "products": [
+    {
+      "productId": "b8b95adc-a4ad-41d1-920f-8469e7a62fba",
+      "productName": "[Túi 1KG] Hạt Cho Mèo S2Pet V1 Đạm 32% Mix Thịt Đông Khô Phù Hợp Mọi Lứa Tuổi",
+      "productImageUrl": "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/6d3a121a4f59476090476df2c2c9900c~tplv-aphluv4xwc-origin-jpeg.jpeg?dr=15568&t=555f072d&ps=933b5bde&shp=54477afb&shcp=3c3d9ffb&idc=my&from=1413970683",
+      "sku": "1731334330917095020",
+      "salePrice": "85000.00",
+      "skuName": "Mặc định",
+      "originalPrice": "140000.00",
+      "quantity": 2,
+      "pickedQuantity": 0,
+      "status": "PENDING",
+      "location": {
+        "bin": {
+          "id": "a67b3e9b-ae20-4c01-8d8b-abbb4353a1da",
+          "code": "A-K1-T3-O3",
+          "row": 1,
+          "col": 3,
+          "level": 3
+        },
+        "shelf": {
+          "id": "eeddada2-7e8a-4480-8a3e-b1775aa21381",
+          "code": "A-K1"
+        },
+        "zone": {
+          "id": "22f2ce41-668c-4a4d-98a0-c777c091386a",
+          "code": "A",
+          "name": "Dãy A"
+        }
+      }
+    },
+    {
+      "productId": "c03b9824-f3d0-474b-8933-11aa834bf67c",
+      "productName": "Thanh Súp Thưởng Neeka 12g Cho Mèo Hỗ Trợ Tiêu Hóa, Giàu Dinh Dưỡng",
+      "productImageUrl": "https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/9a0c090e05f042d8b4c209acfb1d9ff5~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&t=555f072d&ps=933b5bde&shp=54477afb&shcp=3c3d9ffb&idc=my&from=1413970683",
+      "sku": "1731615540453345900",
+      "salePrice": "0.00",
+      "skuName": "Gà",
+      "originalPrice": "0.00",
+      "quantity": 1,
+      "pickedQuantity": 0,
+      "status": "PENDING",
+      "location": {
+        "bin": {
+          "id": "f4d4dfd3-9d1f-417b-9f3e-ba00d5ee48cb",
+          "code": "B-K1-T1-O2",
+          "row": 1,
+          "col": 2,
+          "level": 1
+        },
+        "shelf": {
+          "id": "93fc8942-c8c6-49a8-959b-fdd61cdff781",
+          "code": "B-K1"
+        },
+        "zone": {
+          "id": "476530dc-5723-40de-946b-224da4972bfc",
+          "code": "B",
+          "name": "Dãy B"
+        }
+      }
+    },
+    {
+      "productId": "c03b9824-f3d0-474b-8933-11aa834bf67c",
+      "productName": "Thanh Súp Thưởng Neeka 12g Cho Mèo Hỗ Trợ Tiêu Hóa, Giàu Dinh Dưỡng",
+      "productImageUrl": "https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/7a88466a6d65423893a7d2d4b7d9a304~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&t=555f072d&ps=933b5bde&shp=54477afb&shcp=3c3d9ffb&idc=my&from=1413970683",
+      "sku": "1731615540453411436",
+      "salePrice": "0.00",
+      "skuName": "Cá Ngừ",
+      "originalPrice": "0.00",
+      "quantity": 1,
+      "pickedQuantity": 0,
+      "status": "PENDING",
+      "location": {
+        "bin": {
+          "id": "f4d4dfd3-9d1f-417b-9f3e-ba00d5ee48cb",
+          "code": "B-K1-T1-O2",
+          "row": 1,
+          "col": 2,
+          "level": 1
+        },
+        "shelf": {
+          "id": "93fc8942-c8c6-49a8-959b-fdd61cdff781",
+          "code": "B-K1"
+        },
+        "zone": {
+          "id": "476530dc-5723-40de-946b-224da4972bfc",
+          "code": "B",
+          "name": "Dãy B"
+        }
+      }
+    },
+    {
+      "productId": "c03b9824-f3d0-474b-8933-11aa834bf67c",
+      "productName": "Thanh Súp Thưởng Neeka 12g Cho Mèo Hỗ Trợ Tiêu Hóa, Giàu Dinh Dưỡng",
+      "productImageUrl": "https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/a50f473cd3b14c64b9003c99cf536d7c~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&t=555f072d&ps=933b5bde&shp=54477afb&shcp=3c3d9ffb&idc=my&from=1413970683",
+      "sku": "1731615540453476972",
+      "salePrice": "0.00",
+      "skuName": "Ngẫu nhiên",
+      "originalPrice": "0.00",
+      "quantity": 1,
+      "pickedQuantity": 0,
+      "status": "PENDING",
+      "location": {
+        "bin": {
+          "id": "f4d4dfd3-9d1f-417b-9f3e-ba00d5ee48cb",
+          "code": "B-K1-T1-O2",
+          "row": 1,
+          "col": 2,
+          "level": 1
+        },
+        "shelf": {
+          "id": "93fc8942-c8c6-49a8-959b-fdd61cdff781",
+          "code": "B-K1"
+        },
+        "zone": {
+          "id": "476530dc-5723-40de-946b-224da4972bfc",
+          "code": "B",
+          "name": "Dãy B"
+        }
+      }
+    }
+  ]
+}
+# @_END

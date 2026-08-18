@@ -1,0 +1,17 @@
+### C:\dhn\test\collection\wh\tiktok-scan\req\1-assign-picker-tiktok.http#5
+POST https://dev.dohana.vn/dpm/v1/warehouse/orders/assign-picker
+HTTP/1.1 201 Created
+
+# @_RES (formatted)
+[
+  {
+    "orderId": "df905d59-ade9-4767-9fa1-8336a9bb3f73",
+    "pickerId": "019f6dd6-b361-799a-b216-2b848a0f8594",
+    "assignedBy": "019f6dc4-105d-755c-9cf2-5a8c1fa00c8f",
+    "assignedAt": "2026-08-18T09:55:11.445Z",
+    "unassignedAt": null,
+    "isActive": true,
+    "id": "5bea214b-2856-43ae-941c-b696b6f19619"
+  }
+]
+# @_END
