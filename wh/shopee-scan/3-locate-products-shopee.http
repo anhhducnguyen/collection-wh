@@ -1,3 +1,2 @@
-
 GET {{BASE_URL_REST}}/dpm/v1/warehouse/locate-products?code=SPXVN060475758533&platform=shopee
 Authorization: Bearer {{TOKEN_REST_PICKER}}
