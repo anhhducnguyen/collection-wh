@@ -9,8 +9,9 @@ from wh_tote
 where code = 'T01A4C5F7E5F5';
 
 -- shopee
+DELETE FROM product_inventory
 WHERE product_inventory.product_id = '375227d1-0ffc-4b97-a809-76fc8b1c3c81';
-UPDATE wh_tote
+
 
 SET status = 'IDLE'
 WHERE id = '85be831f-0187-416c-966d-bb5eec0165d5';
