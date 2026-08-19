@@ -1,0 +1,58 @@
+### C:\dhn\test\collection\wh\list-order\req\list-order-assgin.http#1
+GET https://dev.dohana.vn/dpm/v1/warehouse/orders
+HTTP/1.1 200 OK
+
+# @_RES (formatted)
+{
+  "data": [
+    {
+      "id": "72cfb081-c10f-4186-b5da-3c86f136f827",
+      "trackingNumber": "SPXVN069393043973",
+      "source": "shopee",
+      "sourceOrderId": "2603036ECRHBF4",
+      "totalAmount": "326000.00",
+      "status": "AWAITING_SHIPMENT",
+      "orderDate": "2026-08-06T11:49:13.192Z"
+    },
+    {
+      "id": "941184cb-2c64-48b9-85c7-95a3a62e7af6",
+      "trackingNumber": "VN269758459846M",
+      "source": "shopee",
+      "sourceOrderId": "260307G1G2Q42E",
+      "totalAmount": "195000.00",
+      "status": "AWAITING_SHIPMENT",
+      "orderDate": "2026-08-07T11:26:36.363Z"
+    },
+    {
+      "id": "081d14cc-74b3-4107-ab60-bf3cd6dfd3e1",
+      "trackingNumber": null,
+      "source": "shopee",
+      "sourceOrderId": "260317CFYQVUBK",
+      "totalAmount": "169100.00",
+      "status": "AWAITING_SHIPMENT",
+      "orderDate": "2026-08-08T11:26:36.363Z"
+    },
+    {
+      "id": "20301cb9-5426-43b9-8868-081751e955e6",
+      "trackingNumber": null,
+      "source": "shopee",
+      "sourceOrderId": "2603023PH522QE",
+      "totalAmount": "240600.00",
+      "status": "AWAITING_SHIPMENT",
+      "orderDate": "2026-08-09T11:26:36.363Z"
+    },
+    {
+      "id": "24a94d42-a541-4319-87e2-2f66a5a9ad45",
+      "trackingNumber": null,
+      "source": "shopee",
+      "sourceOrderId": "579593978601899023",
+      "totalAmount": "240600.00",
+      "status": "AWAITING_SHIPMENT",
+      "orderDate": "2026-08-09T11:26:36.363Z"
+    }
+  ],
+  "total": 5,
+  "page": 0,
+  "pageSize": 20
+}
+# @_END
